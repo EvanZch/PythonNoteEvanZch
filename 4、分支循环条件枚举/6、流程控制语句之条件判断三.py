@@ -15,22 +15,27 @@ snippet
 
 # 这样不会报错，但是没有什么执行
 if True:
-    pass
+    pass  # 一个空的代码块
 
 # 这样会报错，if里面没有语句 unexpected EOF while parsing
 # if True:
 
-###################### 多层判断
+###################### 多层判断  elif
+# elif 让代码看起来更加简洁
 
+# python 里面么有 switch
 a = 90
 if a >= 80:
-    print("优秀")
+    print("优")
 elif a >= 60:
     print("良")
 elif a >= 40:
     print("差")
 else:
     print("渣渣")
+
+
+
 
 # 代码块
 # 伪代码：用代码表示思想，但是并不是真正的执行

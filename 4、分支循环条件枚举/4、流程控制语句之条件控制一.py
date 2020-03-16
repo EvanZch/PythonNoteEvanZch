@@ -8,10 +8,10 @@
 # mood 心情
 mood = True
 # 注意这里的空格，python是使用缩进来判断语句代码块
-if mood :
+if mood:
     print("go to left")
     print("play")
-else :
+else:
     print("go to right")
 
 # 如果mood为True，输出：
@@ -24,12 +24,12 @@ else :
 # if 后面跟表达式
 
 print("----------if 表达式  ")
-a =1
-b =2
+a = 1
+b = 2
 
-if a>b :
+if a > b:
     print("go to left")
-else :
+else:
     print("go to right")
 
 # d = []
@@ -38,5 +38,3 @@ else :
 #     print("d is null")
 # else :
 #     print("d not null")
-
-
